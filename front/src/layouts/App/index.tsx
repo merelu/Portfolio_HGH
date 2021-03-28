@@ -1,3 +1,4 @@
+import Footer from "@components/Footer";
 import Navbar from "@components/Navbar";
 import { css, Global } from "@emotion/react";
 import Home from "@pages/Home";
@@ -21,6 +22,7 @@ function App() {
       <Switch>
         <Route path="/" component={Home} exact />
       </Switch>
+      <Footer />
     </>
   );
 }
