@@ -6,12 +6,14 @@ import {
   homeObjThird,
   homeObjFourth,
 } from "../../data";
+import Pricing from "@components/Pricing";
 function Home() {
   return (
     <>
       <InfoSection {...homeObjfirst} />
       <InfoSection {...homeObjSecond} />
       <InfoSection {...homeObjThird} />
+      <Pricing />
       <InfoSection {...homeObjFourth} />
     </>
   );
