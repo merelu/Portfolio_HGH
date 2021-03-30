@@ -5,7 +5,7 @@ import {
   homeObjSecond,
   homeObjThird,
   homeObjFourth,
-} from "../../data";
+} from "./Data";
 import Pricing from "@components/Pricing";
 function Home() {
   return (

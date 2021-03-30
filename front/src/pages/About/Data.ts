@@ -1,7 +1,7 @@
-import mainImg from "../images/main.svg";
-import secondImg from "../images/second.jpg";
-import thirdImg from "../images/third.svg";
-import fourthImg from "../images/fourth.svg";
+import mainImg from "@images/main.svg";
+import secondImg from "@images/second.jpg";
+import thirdImg from "@images/third.svg";
+import fourthImg from "@images/fourth.svg";
 
 export const homeObjfirst = {
   primary: true,

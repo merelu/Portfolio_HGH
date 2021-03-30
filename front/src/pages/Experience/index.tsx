@@ -1,7 +1,11 @@
 import React from "react";
-
+import Pricing from "@components/Pricing";
 function Experience() {
-  return <div>Experience</div>;
+  return (
+    <>
+      <Pricing />
+    </>
+  );
 }
 
 export default Experience;
